@@ -1,0 +1,6 @@
+Run > Shell:startup / Paste ipconfig.cmd
+
+echo off
+cls
+ipconfig /flushdns
+exit

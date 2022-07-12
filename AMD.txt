@@ -1,0 +1,20 @@
+C: /AMD A8-7100 Radeon R5, 8 Compute Cores 4C+4G /%errorlevel% /if %errorlevel% == 0 "cd /d "~dp0" "932_bits x 1_Nanosecond" /ENABLE /START
+C: /intelppm.sys /ADD_FEATURE /CREATE:Sector_Address:60h - 6000000h:Sector_Address_Buffer:80h - 8000000h /EXECUTE /ENABLE /SET /START
+C: \.\Global\ /Service_Cache= /240_Caches /ENABLE /START \.\Global /Service_Cache_Size= /1_Service_Cache=52_Kilobytes /ENABLE /START / \.\Global /Service_Cache /DELAY= /1_Nanosecond /ENABLE /START
+/D:/disk.inf:GenDisk,disk_install.NT
+/COM_3
+Hard_Disk_Speed=80 90 00 00 00 00 01 00
+Performance_Cache/Partition_2480386/2500_Mbps
+
+C: /basicrender.sys /render_ext=1_Kilobyte x 8_Megabytes x 16 /image_frame=1280 x 800 x 32_Bits/render_ext=ENABLE
+AMD A8-7100 Radeon R5, 8 Compute Cores 4C+4G:h_cycle=h_cycle="32_Bits x 2000 x 64 1000",Delay=200_Picoseconds /ENABLE
+cpu_cal:C: \Windows \System32 \drivers \intelppm.sys:ext=Intelppm.sys:ext=6_channels x (1_channel=32_bits x 120000 x 64000_picoseconds:6_channels=1_channel x 6:
+C: /CPU /ERROR_LEVEL=0:bit_rate=10_bits x 100 /ENABLE /EXECUTE
+
+\.\Global\GPU/AMD Radeon(TM) R5 Graphics/Pixel_Table_Size=%m%,/\.\Global\GPU/AMD Radeon(TM) R5 Graphics/Pixel_Table_SIZE=%m%/Bandwidth=%m%_Kilobytes_Per_Picosecond
+
+
+Variable_name=PROCESSOR_IDENTIFIER,Variable_value=Intel64 Family 6 Model 94 Stepping 64K, GenuineIntel
+Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+%ROOT%/Display/OpenGl/OpenGL_Properties/Max_Pixel_Map_Table_Size/intelppm.sys=1654_Kilobytes_Per_Kilohertz@0_Picosecond
+C: /CPU/CLOCKS/PATH/8_Threads_Per_1_Hertz /ENABLE /RESET /ENABLE /START,C: /Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz /ADD_FEATURE /CREATE:$r=32_Bits x 1024 x 16_Picoseconds /EXECUTE /ENABLE /SET /START,C: /CPU /Instruction_Set /Ext:4_Bytes x 24000 /ENABLE /Set,

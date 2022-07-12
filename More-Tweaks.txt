@@ -1,0 +1,186 @@
+USER
+/.exe_PATHS
+/24,000_PATHS
+
+\\.\Global\CPU/PATH_TIMEOUT
+/PATH_TIMEOUT_BREAK=0_Nanoseconds
+
+\\.\Global\Memory,MODE
+ECC_MODE,/HIGHEST
+
+SYSTEM
+ /C:/disk.inf:GenDisk,disk_install.NTVariable value
+/COM_3﻿
+
+%CPU_TEMP%
+%CPU_TEMP%=40_Megabytes_Per_Picsecond
+
+%GPU_TEMP%
+%GPU_TEMP%=40_Megabytes_Per_Picsecond
+
+.exe/DATA
+/1,101,121,,212,_bits_per_second
+
+/.exe_PATHS
+/200,000,000_BITS_PER_SECOND
+
+/.exe_RUN_CHANNELS
+/16,000_CHANNELS,/3,400_Kilobytes_Per_Channel
+
+/CPU 64K Batch
+/CPU 64 k batch-1_Picosecond
+
+/CPU_CLASSPATH
+/8,000_Kbps_Bindings
+
+/ISP_SERVER
+/17,000_Kbps
+
+/render.dll PATHS
+/24,000 BIT PATHS
+
+\\.\Global/CPU/Objects
+/12,800_Objects_Per_Nanosecond
+
+\\.\Global\AMD A8-7100 Radeon R5, 8 Compute Cores 4C+4G \DELAY
+/0.00001_Seconds
+
+\\.\Global\CPU/BANDWIDTH
+/BANDWIDTH_BASE=4 Gbps
+
+\\.\Global\CPU/ERROR LEVEL
+/1.2
+
+\\.\Global\CPU/FATA RATE
+/740,242_DATA_SETS_PER_SECOND
+
+\\.\Global\CPU/NATIVE
+/128,000_BIT_STREAMS
+
+\\.\Global\CPU/NEW_STRING
+/14,000_Kbps
+
+\\.\Global\CPU/PATH_TIMEOUT
+/PATH_TIMEOUT_BREAK=0_Nanoseconds
+
+\\.\Global\CPU/PINS
+/90 Kbps Per Pin
+
+\\.\Global\CPU\PROCESSOR_TIME
+/80_Megabytes_Per_Millisecond
+
+\\.\Global\display.dll
+45,200,000_bits_per_second 
+
+\\.\Global\INTERFACE
+/Interface=win32_0x4ffa73fa
+
+AMD Radeon(TM) R5 Graphics/MEMORY BANDWIDTH
+/12.8 Gbps
+
+basicrender.dll
+/128,000 bits per second
+
+bitsperf.dll/PATHS
+/2,000,000 Bit Blocks
+
+bootsect.exe
+/2 Gbps
+
+Chipset/WIDTH
+/24_Bits
+
+CPU BATCH QUEING LAYER
+420 LAYERS
+
+CPU IDE PATH
+/24,000_BIT_PATHS
+
+cpu.inf
+/virtdisk.dll
+
+CPU/Cores
+A7/2 Gbps
+
+CPU/DATA SET
+4 Gbps
+
+CPU/FACTORS
+/12100 FACTOR SENDS
+
+CPU_CLOCK_PIN
+360_sectors:1_Picosecond
+
+CPU_EFFORT
+800%
+
+CPU_GRID_PIN_ARRAY<SET>
+144_Active_Pins\RATE_96x
+
+CPU_IDE_STATE
+OPEN
+
+CPU_MAIN
+A7,LEVEL_213
+
+CPU_STRINGS_1
+/120,000_STRINGS,16 Kilobytes_Per_String
+
+CPU_STRINGS_2
+/160,000_STRINGS/8 Kilobytes_Per_String
+
+display.dll
+/2 Gbps
+
+display.dll/IDE
+/1.22 Gbps
+
+display.dll/Partition
+/28490_Bit_Partitions
+
+explorer.exe
+20_Mbps
+
+gui.dll
+/2 Gbps
+
+hal.dll
+/2 Gbps
+
+HARDWARE RESERVED
+/24,000_bit_paths
+
+HDD PARTITION
+LEVEL 3. 3000_Kbps_PER_SECTOR, $m$/45 Mps
+
+Processor Affinity
+U1-U7-U2-U0
+
+USERNAME
+SYSTEM/2_Gbps
+
+vooblynat1.dll
+/2 Gbps
+
+wow64cpu.dll
+/2 Gbps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

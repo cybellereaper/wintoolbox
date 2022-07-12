@@ -1,0 +1,205 @@
+C: /CPU /CLOCK /PATH /Threads_Per_Hertz- /8_Threads_Per_1_Hertz /CYCLE= /1865634736238_Hertz_Per_Second /ENABLE /RESET /ENABLE /START
+C: /CPU /OpenGL /CLOCK /PATH /THREADS- /4_Threads_Per_1_Hertz /Cycle= /1865634736238_Hertz_Per_Second /ENABLE /RESET /ENABLE /START
+C: /CPU /CLOCK /PATH= /16_Threads_Per_1_Hertz /Cycle= /1865634736238_Hertz_Per_Second /ENABLE /RESET /ENABLE /START
+Set
+C: /Internet Explorer /INCLUDE /IP_FUNCTION /scanf:4_Kilobytes_Per_Millisecond /INCLUDE:getch = URL_Page /ENABLE /RESET /ENABLE /START
+Set
+C: /Internet Connection /Instruction Set /LOG /LOG_DELAY=2000_Picoseconds /C: /Instruction Set /LOG /ADDRESS_LENGTH= /8_bits x 2 /ENABLE /START
+Set
+C: /Internet Connection /Host_Local_Host /Protocol /Host_Ext:Host /ADD_.tci:Channel '1 x <4 x 16> :.tci "find_.tci_host" /ENABLE /START
+Set
+C: /%ROOT% /PAGING_FILE /Write-600_Kilobytes_Per_Nanosecond /ENABLE /RESET /ENABLE /START
+Set
+C: /Internet Connection /Host_Local_Host /ADD_FUNCTION- /enum.exe /ENABLE /RESET /ENABLE /START
+Set
+C: /Internet Connection /Interface /Host_Local_Host=1_Microsecond /Cache_Speed=1_Microsecond /ENABLE /START
+Set
+C: /Internet Connection /Instruction Set /LOG /LOG_DELAY=2000_Picoseconds /C: /Instruction Set /LOG /ADDRESS_LENGTH= /8_bits x 2 /ENABLE /START
+Set
+C: /Internet Connection /Interface /Host_Local_Host=1_Microsecond /Cache_Speed=1_Microsecond /ENABLE /START
+Set
+C: /Internet Connection /Host_Local_Host /Protocol /Host_Ext:Host /ADD_.tci:Channel '1 x <4 x 16> :.tci "find_.tci_host" /ENABLE /START /
+Set
+C: /%virtdisk.dll%/4000_Mbps /%vvirt.dll%/64000_memory_blocks /%virtdisk.dll%:PATHS=16_Kilobytes_Per_Microsecond /ENABLE /RESET /ENABLE /START
+Set
+C: /virdisk.dll% /Threads /BANDWIDTH_RANGE=128_bits x 45000_Mbps /ENABLE  /RESET /ENABLE /START
+Set
+C: /C: /ACPI /WINDOWS.sys /CPU /hd.e /Get_ADDRESS /hd_range=hd.e = /0x11111111 x 16_bits /ENABLE /RESET /ENABLE /START
+Set
+C: /mcr.e /MICROCODE /INDEX /REGISTRER_PAGE_RT= Cache=1000_bits x 128 /RT_WAVE=/10_bits /ADD_mcr.e /ADD_RT_WAVE /ENABLE /RESET /RESET /ENABLE /START
+Set
+C: /WINDOWS.sys /Attib /Memory /ADD_ATTRIB /Memory_Prefetch /Prefetch_Size ="1" /168_bits x 40 /Prefetch_Cycle:1= 1 x 40 /ENABLE
+Set
+C: /Internet Connection /TCP /Ext /ADD_$Ext$ = FLOP:168_bits x 16 /$Ext$= /ENABLE
+Set
+C: /C:\Windows\inf\Internet Explorer /ieproxy.dll /Host-LocalHost:Max_Host-LocalHost_Bandwidth = 1877652333172112_Hertz /ENABLE
+Set
+C: //CPU /FILTER:144_Kilobytes_Per_Microsecond //CPU:filter /EXECUTE= "ENABLE" /ENABLE
+Set
+C: //CPU /EXECUTABLE_FILES:360_Kilobytes_Per_Microsecond "Enable" /ENABLE
+Set
+C: /WINDOWS.sys //CPU /.cls:Instruction_Set=FONT_ID:64bits x 128 x 2_Picoseconds /ENABLE
+Set
+C: /CPU /Memory /CIRC = 11 x 10_Microseconds /ENABLE
+Set
+C: /Internet Connection /Ext:pref tx si* lx*:24_Kilobytes x 4_Channels //Host-Local_Host /ADD_PROTOCOL:HANDLES://Ext:pref /ENABLE
+Set
+C: /CPU /cd /6000_Megabytes_Per_Second /ENABLE
+Set
+C: /Internet Connection /cd /6000_Megabytes_Per_Second /ENABLE 
+Set
+C: /CPU /CACHE /CACHE=wmplayer.exe:vlc.exe:html5player.exe /DMI /DMICPU /ENABLE
+Set
+C: /CPU /CACHE /CACHE=WINDOWS.sys /ENABLE
+Set
+C: /CPU /ACPI\Processor:1:2:3:4 \Device\00000011:\Device\00000012:\Device\00000013:\Device\00000014: /Capabilities\00001600 {50127dc3-0f36-415e-a6cc-4cb3be910b65}\1200 /Instruction_Set= /Instruction=Install:ENABLE /Ext:.cdi /RESET/START /ENABLE /RESET/START /ENABLE
+C: /ENABLE
+Set
+C: /Internet Connection /CPU /CACHE /CACHE=GetURL /ENABLE
+Set
+C: /Windows.sys /Directories /PATHS=600_Kilobytes_Per_Millisecond /ENABLE /C: /Internet Connection /Host-LocalHost /Directories /700_Kilobytes_Per_Millisecond /ENABLE /
+Set
+C: /Internet Connection /Host-LocalHost /LIMITER=DISABLE /ENABLE
+Set
+C: /CPU /Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz /Instruction Set /Addresses /Echo=200_Kilobytes_Per_80_Nanoseconds /ENABLE
+Set
+C: /CPU /Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz /Instruction Set /Data /ECHO=Memory /PATHEXT.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC /ECHO=COM_4 /ENABLE
+Set
+C: /CPU /Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz /RSDT /2_Kilobytes_P_Picosecond /RSD PTR /Bandwidth=4_Kilobytes_Per_Nanosecond /DMAR /Cache=120_Kilobytes /ENABLE
+Set
+C: /C:\Windows\System32 /Architechure /MSIL /loadmxf /Miocrosoft_JScript /Microsoft.Transactions.Bridge.DTC /CPU MMCPxCommon /Bandwidth_Cache=270_Kilobytes_Per_Millisecond /mscorlib /Cache_Bandwidth=128_bits x 128_Kilobytes /ENABLE
+Set
+C: /monitor.sys /CPU /OpenGL /Physical Memory /DMA /ACPI\PNP0200 /L_2 Cache /ENABLE
+Set
+C: /monitor.sys /render_size=1_millicron /C: /basicrender.dll render:1_millicron /CPU /OpenGL /render=1_millicron /ENABLE
+Set
+C: /basicrender.dll /IONIC_CUBE /CACHE /3981312000_bits /ENABLE /Set
+Set
+C: /Internet Connection /http.sys /Cache_Init:16_Kilobytes_Per_Nanosecond /http.sys /request_pointers /Handle_Size:16_Kilobytes_Per_Nanosecond /https.sys /Write_Access701_Megabytes_Per_Second /http.sys /Send Connection Pointer:40% /http.sys /Code_Container /BANDWIDTH:89_Kilobytes_Per_Microsecond /ENABLE /Set
+Set
+C: /Internet Connection /Encryption_Key /Handles /2_bits x 512 x 1000 /ENABLE /Set
+Set
+C: /CPU /Instruction_Set /Ext:4_Bytes x 24000 /ENABLE /Set
+Set
+C: /CPU /Instruction _Set /Fetch:Decode /Cycle /Start=20_Picoseconds /TTL=40_Nanoseconds /ENABLE Set
+Set
+C: /CPU /Memory /windows_priority_flags /CPU:Memory_Path_Delay=40_Picoseconds /windows_priority_flag_#2=CPU /Memory_Path_Bandwidth=8200_Mbps /ENABLE /Set
+Set
+C: /Memory /Slot_#1:Slot_#2:Slot_#3:Slot_#4 /Ext /PATHS /READ:WRITE:COPY /L_2Cache /ENABLE /Set
+Set
+C: /CPU /Memory /Int_1:Int_2:Int_3:Int_4 /Delay=20_Picoseconds /ENABLE /Set
+Set
+C: /Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz /Partition_Cluster:512_bits x 32 /ENABLE /Set
+Set
+C: /ACPI /TABLE_LENGTH /Cache=16_Kilobytes /Memory_Address=792DC00h /ENABLE /Set
+Set
+C: /CPU /Instruction set /Matrix:Instruction Set Cache=7_Kilobytes_Per_Nanonsecond /ENABLE /Set
+Set
+C: /Internet Connection /Browser.sys /Host-Local_Host /Port_Mapping /RAMDAC_Clock=FULL /BUFFER=64_Megabytes /BUFFER_SPEED=320_Kilobytes_Per_Millisecond /ENABLE /Set
+Set
+C: /Internet Connection /Host-Local_Host /Port_Mapping /CLOCKS:RAMDAC_CLOCK /CHANNELS:64_CHANNELS /ENABLE /Set
+Set
+C: /Internet Connection /Host-Local_Host /RAMDAC_CLOCK=FULL /ENABLE /SET /HOST-Local_Host /RAMDAC_CLOCK/BANDWIDTH /CHANNELS=24_CHANNELS /ENABLE /Set
+Set
+C: /C:\Windows\regedit.exe /RAMDAC_CLOCK /BANDWIDTH /FILE_OPEN:1600_Mbps /ENABLE /Set
+Set
+C: /Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz /FILE_OPEN:700_Mbps /ENABLE /Set
+Set
+C: /Internet Connection /Host-Local_Host_EXT:MIPS=65_Kilobytes_Per_Millisecond /ENABLE /Set
+Set
+C: /monitor.sys /PATH_EXT=AMD Radeon HD 7900 Series /TABLES:Instruction_Set=128_bits_per_nanosecond /Set /ENABLE
+Set
+C: /CPU_MODE:FULL /CPU_MEMORY:FULL /Set
+Set
+C: /Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz /OpenGL /HUE:#ACADAE /Set
+Set
+C: /Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz /Input_Cache:3400_Kilobytes /output_Cache:7770_Kilobytes /Set
+Set
+C: /Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz /Memory /Input:144_bits_per_picosecond /Memory /Output:760240_bits_per_nanosecond /set
+Set
+C: /Internet Connection /Server /Code_Page /MSUCE=67_Kilobytes_Per_Millisecond /ENABLE
+Set
+C: /Internet Connection /Get_URL /INIT /570_Kilobytes_Per_Milliseconds /ENABLE
+Set
+C: /CPU /IO /INIT /Bit_Width:128_bits x 64 /ENABLE
+Set
+C: /CPU /SOURCE_DATA /Channel_SE:Bit_Width=79_Bits x 79_Bits /ENABLE
+Set
+C: /Internet Connection /ARRISGW /MDI /CPU RAS PRECHARGE - tRP /Ext /MEMORY:Cache L_2 /MDI /CPU /Read To Precharge Delay -tRTP /MEMORY:Cache L_2:Bank_2 /ENABLE
+Set
+C: /System CMOS/real time clock:C:\Windows\system32\DRIVERS\intelppm.sys /CLOCKS /CLOCK_CYCLE:24_T_Per_Clock_Cycles
+Set
+C: /Memory /Channel_X /Bit_Width:77_bits x 77_bits /ENABLE
+Set
+C: /Internet Connection /ARRISGW /GET_URL /Memory /Threads /Thread_1:Thread_2:Thread_3:Thread_4 /Thread_Percentage:75_Percent<%> /Memory_Threads:ENABLE
+Set﻿
+
+
+
+%ROOT%/CPU/WAVE_LENGTH,/%ROOT%/CPU/WAVE_LENGTH=2000_Picoseconds,/%ROOT%/CPU/WAVE_LENGTH_BREAK,/%ROOT%/CPU/WAVE_LENGTH_BREAK=0_Nanoseconds
+
+%ROOT%/CPU/MATRIX_TYPE,/%ROOT%/CPU/MATRIX_TYPE
+16x
+
+\.\Global\Memory,MODE
+ECC_MODE,/HIGHEST
+
+HARDWARE RESERVED
+/24,000_bit_paths
+
+*System.OfflineAvailability;*\$PercentOffline_(x_1)$
+99
+
+kernel32.dll/8_Bit
+99999999
+
+MaxLOM_Channels
+12500
+
+x64_aRM_Level
+700000
+
+intelppm.sys:ste_x:211_Pin x 2236423362_HERTZ:ENABLE
+2
+
+\\.\Global\INTERFACE
+/Interface=win32_0x4ffa73fa
+
+CPU_GATE
+$400000$ Bytes Per Picosecond$
+
+Default Gateway/Bandwidth
+/1 Gbps
+
+Default Gateway/Bandwidth/Receive
+/1 Gbps
+Default Gateway/Receive/URL Bandwidth
+/100 Mbps
+Default Gateway/URL Prefetch
+/200 Mbps
+
+\.\Global\CPU/ERROR LEVEL
+/1.1
+
+C: /Internet Connection /Get_URL /INIT /570_Kilobytes_Per_Milliseconds
+/ENABLE
+C: /Internet Connection /Host_Local_Host /Protocol /HostExt:Host /ADD.tci:Channel '1 x <4 x 16> :.tci "find_.tci_host"
+/ENABLE /START
+C: /Internet Connection /Host-LocalHost /LIMITER
+DISABLE /ENABLE
+
+// C: /Internet Connection /Host-LocalHost /LIMITER
+DISABLE /ENABLE
+
+"\\.\Global\INTERFACE"="/Interface=win32_0x4ffa73fa"
+"\\.\Global\Internet Connection/HTTP"="/10_Megabytes_Per_Milisecond"
+"\\.\Global\Internet Connection/HTTP PREFETCH"="/10_Megabytes_Per_Milisecond﻿"
+
+
+MaxPointSize\Max1.0PointVariable
+Max1.0PointVariable=0000 x 0x0032768 x 0x00000001 x 0000 x 0x0020836 x 0x00000144 x 0x00000001 x 0x0020836 x 0x000000f0\cx0
+
+:C: \ACPI\Central Processor\Core_0:Core_1:Core_2:Core_3:Cache L_1:Cache L_2:Cache L_3 /ADD_FEATURE /CREATE=\Device\00000000:PageFile:0x00A7:%SectorTargetWidth%=0000 x 0 x 0x00EFA512 x 0x0FFA9999\cx0=ENABLE /EXECUTE /ENABLE /SET /START
+
+CPU_RESOURCES
+ALL CHANNELS ON,ON,R39K55343:READY

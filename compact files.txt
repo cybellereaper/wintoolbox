@@ -1,0 +1,3 @@
+pack lzx: compact /c /s /a /i /exe:lzx "C:\data\*"
+unpack lzx: compact /u /a /s /exe "C:\data\*"
+
