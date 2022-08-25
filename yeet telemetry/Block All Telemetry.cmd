@@ -4,7 +4,7 @@ title Block All Telemetry
 mode con: cols=82 lines=21
 
 cls
-echo Batch script created by Auuki
+echo Batch script, created by GitHub@Alicyclic
 timeout 3 > nul
 
 :menu
