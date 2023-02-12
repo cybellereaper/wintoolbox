@@ -1,4 +1,4 @@
 ### Wintoolbox
-These are windows tweaks that can help enhance the experience of windows, if used properly!
+If applied appropriately, these Windows modifications can improve your experience with Windows!
 
-### Some of these don't work due to Windows 11+ and various other features, good luck!
+##### Due to Windows 11+ and other features, some of them don't function. Good luck!
